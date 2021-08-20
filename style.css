@@ -284,7 +284,8 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .navbar {
@@ -332,9 +333,19 @@ a:hover {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+.nav > li a:hover {
+    background: transparent;
+    text-decoration: underline;
+    color: #2e0268;
+}
+
+
+
 .nav > li a:focus {
     background: transparent;
+    color: #2e0268;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 .navbar-toggle {
@@ -516,8 +527,8 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
-    z-index: 500;
+    opacity: 1;
+    z-index: 1;
     transition: all .3s ease-in-out;
 }
 
@@ -677,17 +688,18 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 20xpx;
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
+    max-width: 6500px;
     margin: auto auto auto auto;
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 35px;
     font-family: "Open Sans";
+    color: #333334
 }
 
 .cta-hero {
@@ -705,15 +717,16 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 32px;
     line-height: 1.4em;
+    font-weight: bold;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 20px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #333334!important;
 }
 
 .med-width-whitespace {
@@ -728,6 +741,7 @@ h1 {
 
 h4 {
     color: #333333!important;
+    margin-top: 25px;
 }
 
 .icons {
@@ -737,6 +751,7 @@ h4 {
 
 .white {
     color: #FFFFFF!important;
+    font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -775,16 +790,21 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #2e006c!important;
+    color:white!important;
+}
+
+.btn-atomic-tangerine:focus {
+    background: #2e006c!important;
     color: #FFFFFF!important;
 }
 
@@ -813,16 +833,13 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("./img/la-chouette-agence-banniere.png");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("./img/image-de-presentation.png");
 }
 
 @media (max-width: 1024px) {
