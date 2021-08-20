@@ -91,7 +91,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
+    background: url("img/texture-paper-min.png");
     background-size: 280px 280px;
 }
 
@@ -153,7 +153,7 @@ a:hover {
     color: rgba(255, 255, 255, 1);
 }
 
-.d-bloc .navbar-toggle .icon-bar {
+.d-bloc .icon-bar {
     background: rgba(255, 255, 255, 1);
 }
 
@@ -336,10 +336,9 @@ a:hover {
 .nav > li a:hover {
     background: transparent;
     text-decoration: underline;
+    font-weight: bold;
     color: #2e0268;
 }
-
-
 
 .nav > li a:focus {
     background: transparent;
@@ -488,6 +487,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: black;
 }
 
 .icon-lg {
@@ -595,6 +595,7 @@ a[data-lightbox]:hover img {
     left: 15px;
     right: 15px;
     bottom: 5px;
+    font-size: 13px;
 }
 
 .close-lightbox {
@@ -662,7 +663,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -688,7 +689,7 @@ a {
 }
 
 p {
-    font-size: 20xpx;
+    font-size: 15xpx;
 }
 
 .tight-width-whitespace {
@@ -697,7 +698,7 @@ p {
 }
 
 .h1 {
-    font-size: 35px;
+    font-size: 32px;
     font-family: "Open Sans";
     color: #333334
 }
@@ -723,10 +724,10 @@ h2 {
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333334!important;
+    color: #333!important;
 }
 
 .med-width-whitespace {
@@ -735,13 +736,8 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
 h4 {
     color: #333333!important;
-    margin-top: 25px;
 }
 
 .icons {
@@ -750,7 +746,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
     font-size: 20px;
 }
 
@@ -833,13 +829,12 @@ h4 {
     background-image: url("img/dots-bg.png");
 }
 
-
 .bg-banniere {
-    background-image: url("./img/la-chouette-agence-banniere.png");
+    background-image: url("./img/la-chouette-agence-banniere-min.jpeg");
 }
 
 .bg-presentation {
-    background-image: url("./img/image-de-presentation.png");
+    background-image: url("./img/image-de-presentation-min.png");
 }
 
 @media (max-width: 1024px) {
@@ -1043,12 +1038,22 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .citation-text{
+        font-size: 16px;
+    }
+    .portfolio-row{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .col-sm-6{
+        margin-bottom: 20px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
-        padding-left: 0;
-        padding-right: 0;
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
