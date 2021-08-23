@@ -1062,3 +1062,84 @@ h4 {
         text-align: center;
     }
 }
+
+.temoignage {
+    border-left: solid 3px #575767;
+}
+
+.temoignage_auteur {
+    font-style: italic;
+}
+
+.explication {
+    padding-bottom: 20px;
+}
+
+.partenaire-titre {
+    font-size: 20px;
+    color: black!important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.partenaire {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 18px;
+}
+
+.partenaire-a {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    color: black;
+} 
+
+.design {
+    font-size: 16px;
+    margin: 20px auto 0 auto;
+    color: black;
+}
+
+.meet {
+    font-size: 20px;
+    color: black!important;
+    text-align: center;
+    font-weight: bold;
+}
+
+.realisation-img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.realisation-img:focus {
+    border: solid 4px #2e006c;
+}
+
+.realisation-titre {
+    margin-top: 25px;
+}
+
+.partner-a:focus{
+    text-decoration: underline;
+    font-weight: bold;
+    color:#2e006c;
+}
+
+.partner-a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2e006c;
+}
+
+.social:focus .icon-md{
+    color: #2e006c;
+    border-bottom: solid 2px #2e006c;
+}
+
+.projet {
+    font-size: 28px;
+}
