@@ -487,7 +487,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
-    color: black;
+    color:black;
 }
 
 .icon-lg {
@@ -1143,3 +1143,48 @@ h4 {
 .projet {
     font-size: 28px;
 }
+
+label{
+    width: 100%;
+    font-size: 18px;
+}
+
+.col-sm-6 {
+    padding: 0 30px;
+}
+
+.contact-a{
+    font-size: 18px;
+}
+
+.contact-a:hover, .contact-a:focus {
+    color: #2e006c;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.adresse, .send-message {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.contact-titre {
+    color: #000000;
+}
+
+.contact-texte {
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    .adresse {
+        padding-top: 20px;
+    }
+    .contact-a {
+        padding-left: 10px;
+    }
+    .partenaire-a {
+        padding: 0 5px;
+    }
+}
+    
